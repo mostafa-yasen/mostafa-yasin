@@ -1,8 +1,144 @@
 *, body, html {
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 *, *::after, *::before {
   box-sizing: border-box;
+}
+
+li {
+  position: relative;
+  list-style-type: none;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 5px;
+  height: 11px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #00a8a8;
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+}
+
+h1.full-name {
+  padding: 2em 80px 1em;
+  font-size: 46px;
+  text-transform: uppercase;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url(../images/banner.jpg);
+    /* color: #00a8a8; */
+  background-size: cover;  
+  color: white;
+}
+
+.info {
+  background-color: #404040;
+  background: linear-gradient(90deg, rgb(222, 182, 56), rgb(227, 193, 94));
+  color: white;
+  padding: 15px 80px;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 0rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info ul li {
+  display: inline-block;
+}
+.info ul li::before {
+  display: none;
+}
+
+.intro {
+  padding: 20px 80px;
+  color: #404040;
+  font-size: larger;
+}
+
+.experience {
+  padding: 20px 80px;
+}
+
+.experience h2 {
+  text-transform: uppercase;
+}
+
+.experience .exp-item,
+.edu .edu-item {
+  margin: 30px auto;
+  display: flex;
+}
+.experience .exp-item .exp-item-date,
+.edu .edu-item .edu-item-date {
+  color: #404040;
+  width: 20%;
+}
+.experience .exp-item .exp-item-description,
+.edu .edu-item .edu-item-description {
+  width: 80%;
+}
+.experience .exp-item .exp-item-title,
+.edu .edu-item .edu-item-title {
+  font-style: italic;
+}
+
+.edu .edu-item .edu-item-title .edu-item-title-location {
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.experience .exp-item .exp-item-details,
+.edu .edu-item .edu-item-details {
+  margin: 10px 0;
+}
+
+.experience .exp-item .exp-item-details li,
+.edu .edu-item .edu-item-details li {
+  margin-top: 8px;
+}
+
+
+.skills {
+  padding: 20px 80px;
+}
+
+.skills h2 {
+  text-transform: uppercase;
+}
+
+.skills .skills-items {
+  margin-top: 20px;
+  padding-left: 1.2rem;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.skills .skills-items li {
+  width: 33.33%;
+  /* padding: 5px; */
+}
+
+.edu {
+  padding: 20px 80px;
+}
+
+.edu h2 {
+  text-transform: uppercase;
 }
