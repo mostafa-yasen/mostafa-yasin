@@ -9,6 +9,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',
+  distDir: '.next',
+  // Firebase hosting will serve static files correctly
+  trailingSlash: true,
 }
 
 export default nextConfig
