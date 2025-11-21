@@ -138,8 +138,9 @@ export const skills = {
   softwareDevelopment: ["Agile", "Scrum", "Test-Driven Development", "Behavior-Driven Development"],
   versionControl: ["Git", "GitHub", "GitLab"],
   databases: ["MongoDB", "PostgreSQL", "MySQL", "SQLite", "Firebase"],
-  toolsAndPlatforms: ["Git", "GitHub", "GitLab", "Docker", "Kubernetes", "AWS", "Jenkins", "Jira", "CI/CD", "Git", "GitHub Actions", "AWS", "Linux"],
+  toolsAndPlatforms: ["Git", "GitHub", "GitLab", "Docker", "Kubernetes", "AWS", "Jenkins", "Jira", "CI/CD", "GitHub Actions", "Linux"],
   methodologies: ["Agile", "Scrum", "Test-Driven Development", "Behavior-Driven Development"],
+  ai: ["RAG", "LangChain", "LangGraph", "ChatGPT", "GitHub Copilot", "AI-assisted Development", "Vibe Coding", "Prompt Engineering"],
 }
 
 export const education = [

@@ -3,7 +3,7 @@ import SectionWrapper from "@/components/ui/section-wrapper"
 import SectionTitle from "@/components/ui/section-title"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Cpu, SquareFunction, Database, Settings2, Users, FlaskConical } from "lucide-react"
+import { Cpu, SquareFunction, Database, Settings2, Users, FlaskConical, Brain } from "lucide-react"
 
 const skillCategories = [
   {
@@ -21,6 +21,7 @@ const skillCategories = [
     icon: <Settings2 className="h-6 w-6 text-primary" />,
   },
   { title: "Methodologies", skills: skills.methodologies, icon: <Users className="h-6 w-6 text-primary" /> },
+  {title: "AI Tools", skills: skills.ai, icon: <Brain className="h-6 w-6 text-primary" />},
 ]
 
 export default function SkillsSection() {
