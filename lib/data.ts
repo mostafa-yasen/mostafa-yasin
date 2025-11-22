@@ -133,7 +133,7 @@ export const skills = {
 export const education = [
   {
     id: 1,
-    institution: "State University",
+    institution: "Minia University",
     degree: "B.S. in Computer Science",
     startDate: "Jan 2015",
     endDate: "Jun 2019",
