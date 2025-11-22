@@ -48,7 +48,7 @@ export const workExperience = [
     company: "GATEWATCHER",
     role: "Senior Software Engineer",
     startDate: "Jun 2024",
-    endDate: "Present (1 Year)",
+    endDate: "Present",
     description: [
       "Developed an innovative NDR platform using Python, enhancing threat detection capabilities by 10%, and protecting company networks.",
       "Led efforts to instantly detect and report cyberattacks, improving response times by 15% and ensuring proactive threat management.",
@@ -62,8 +62,8 @@ export const workExperience = [
     id: 2,
     company: "Paymob",
     role: "Senior Software Engineer",
-    startDate: "Jan 2023",
-    endDate: "May 2024 (1 Year 4 Months)",
+    startDate: "Jun 2023",
+    endDate: "May 2024 (1 Year)",
     description: [
       "Developed in-store payment options using Python, FastAPI, Django, and Django Rest Framework, enhancing business growth by a good percentage.",
       "Integrated POS solutions for businesses, streamlining operations and increasing revenue by 25%.",
@@ -76,8 +76,8 @@ export const workExperience = [
     id: 3,
     company: "Majaracapital",
     role: "Senior Software Engineer",
-    startDate: "Apr 2021",
-    endDate: "Jan 2023 (1 Year 10 Months)",
+    startDate: "May 2022",
+    endDate: "May 2023 (1 Year)",
     description: [
       "Developed and customized an LMS for students in Saudi Arabia using JavaScript, Python, Angular, Frappe Framework, and ERPNext, enhancing learning experiences.",
       "Built a platform for marketing and sales teams to manage questions, exams, notifications, progress monitoring, and subscriptions, improving operational efficiency by 80%.",
@@ -87,23 +87,10 @@ export const workExperience = [
   },
   {
     id: 4,
-    company: "JAWA HR",
-    role: "Senior Software Engineer",
-    startDate: "Jan 2022",
-    endDate: "Mar 2022 (3 Months)",
-    description: [
-      "Developed an ERP platform using Python and Frappe framework, enhancing HR processes and improving efficiency, reducing system runtime.",
-      "Led a team to successfully launch the platform, resulting in increased productivity and cost savings.",
-      "Implemented features to streamline HR processes, ensuring robust data protection and security.",
-    ],
-    logo: "/jawahr_logo.jpeg",
-  },
-  {
-    id: 5,
     company: "Axentor LLC.",
     role: "Software Engineer",
-    startDate: "Apr 2021",
-    endDate: "Mar 2022 (1 Year)",
+    startDate: "May 2021",
+    endDate: "Apr 2022 (1 Year)",
     description: [
       "Developed a platform using Python to manage the sales team, enhancing operational efficiency by 60%.",
       "Built a POS solution for stock management, streamlining inventory processes and increasing accuracy by 60%.",
@@ -112,7 +99,7 @@ export const workExperience = [
     logo: "/axentor_logo.webp",
   },
   {
-    id: 6,
+    id: 5,
     company: "Lavaloon",
     role: "Full Stack Software Engineer",
     startDate: "Aug 2019",
